@@ -5,21 +5,20 @@
 
 ![1](https://user-images.githubusercontent.com/125839542/225788966-7841ed6e-3a4d-40bd-b3e4-e38eb5820c1b.png)
 
-Kode Python ini menggunakan modul os, time, dan prettytable untuk membuat tabel dengan header kolom yang sudah ditentukan. os.system('cls') digunakan untuk membersihkan layar terminal pada sistem operasi Windows. Objek tabel dari kelas PrettyTable dibuat dan header kolom ditentukan. Dokumentasi kode harus menjelaskan tujuan kode tersebut, modul dan kelas yang digunakan, penjelasan pada setiap baris kode dan variabel yang digunakan, serta contoh penggunaan kode tersebut.
-
+Kode Python ini menggunakan modul os, time, dan prettytable untuk membuat tabel dengan header kolom yang sudah ditentukan. os.system('cls') digunakan untuk membersihkan layar terminal. Objek tabel dari kelas PrettyTable dibuat dan header kolom ditentukan. 
 
 **2. CLASS**
 
 ![2](https://user-images.githubusercontent.com/125839542/225789148-b18953a3-efd6-4408-a8c7-f73c87e25270.png)
 
-Kode ini menggunakan implementasi dari kelas linkedList yang memiliki tiga atribut utama, yaitu head, history, dan Node. Kelas Node digunakan untuk mendefinisikan sebuah node dalam linked list, yang memiliki atribut-atribut seperti jam, tujuan, nomor, nextNode, dan prevNode. Atribut-atribut ini merepresentasikan informasi yang disimpan pada setiap node, seperti jam keberangkatan, tujuan perjalanan, dan nomor penerbangan. Kelas linkedList memiliki beberapa method yang akan dijelaskan sebagai berikut.
+Kode ini menggunakan implementasi dari kelas linkedList yang memiliki tiga atribut utama, yaitu head, history, dan Node. Kelas Node digunakan untuk mendefinisikan sebuah node dalam linked list, yang memiliki atribut jam, tujuan, nomor, nextNode, dan prevNode. Atribut-atribut ini merepresentasikan informasi yang disimpan pada setiap node, seperti jam keberangkatan, tujuan perjalanan, dan nomor penerbangan. Kelas linkedList memiliki beberapa method yang akan dijelaskan sebagai berikut.
 
 
 **3. VIEW**
 
 ![3](https://user-images.githubusercontent.com/125839542/225789495-d90e7a8e-52f8-4b38-9867-e6985953bfca.png)
 
-Method view() digunakan untuk menampilkan informasi jadwal keberangkatan dalam bentuk tabel. Method ini memeriksa apakah linked list kosong atau tidak dengan memeriksa apakah atribut head berisi nilai atau tidak. Jika head kosong, maka method akan menampilkan pesan "JADWAL KOSONG". Jika head tidak kosong, method akan melakukan iterasi pada setiap node dalam linked list dan menambahkan informasi node tersebut ke dalam sebuah tabel menggunakan modul "prettytable". Setiap node akan ditambahkan ke dalam tabel sebagai sebuah baris dengan nomor urut, jam keberangkatan, tujuan perjalanan, dan nomor penerbangan. Setelah semua node ditambahkan ke dalam tabel, method akan menampilkan tabel ke layar dengan menggunakan fungsi get_string() dari modul prettytable.
+Method view() digunakan untuk menampilkan informasi jadwal keberangkatan dalam bentuk tabel. Method ini memeriksa apakah linked list kosong atau tidak dengan memeriksa apakah atribut head berisi nilai atau tidak. Jika head kosong, maka method akan menampilkan pesan "JADWAL KOSONG". Jika head tidak kosong, method akan melakukan iterasi pada setiap node dalam linked list dan menambahkan informasi node tersebut ke dalam sebuah tabel menggunakan modul "prettytable". Setiap node akan ditambahkan ke dalam tabel sebagai sebuah baris dengan nomor urut, jam keberangkatan, tujuan perjalanan, dan nomor kereta. Setelah semua node ditambahkan ke dalam tabel, method akan menampilkan tabel ke layar dengan menggunakan fungsi get_string() dari modul prettytable.
 
 
 **4. VIEWHISTORY**
@@ -50,21 +49,21 @@ Method addEnd() berfungsi untuk menambahkan sebuah node baru di akhir linked lis
 ![7 3](https://user-images.githubusercontent.com/125839542/225790109-14765131-79a3-4e0c-9d72-43dfe8de14c3.png)
 ![7 4](https://user-images.githubusercontent.com/125839542/225790127-7bcc3b22-17d7-4e83-9356-dbc141ccfdc8.png)
 
-Method Update berfungsi untuk mengubah nilai atribut jam, tujuan, atau nomor kereta pada node tertentu dalam linked list. Method menerima dua parameter, yaitu position yang menentukan posisi node yang akan diubah (dimulai dari 1) dan newValue yang merupakan nilai baru. Pertama, method menginisialisasi pointer dengan head dan melakukan iterasi pada setiap node dari head hingga node yang memiliki nomor urut sesuai dengan parameter position. Jika pointer telah mencapai node dengan nomor urut position, maka method akan mengubah nilai atribut dari node tersebut dengan nilai newValue dan menambahkan riwayat perubahan ke dalam atribut history dengan format "Mengubah atribut | nialilama | menjadi | nilai baru |". Jika pointer tidak menemukan node dengan nomor urut position, maka method akan mencetak pesan kesalahan dan mengembalikan nilai 0. Jika pointer telah mengubah nilai atribut jam pada node yang tepat, maka method akan mencetak pesan berhasil dan mengembalikan nilai 1.
+Method Update berfungsi untuk mengubah nilai atribut jam, tujuan, atau nomor kereta pada node tertentu dalam linked list. Method menerima dua parameter, yaitu position yang menentukan posisi node yang akan diubah (dimulai dari 1) dan newValue yang merupakan nilai baru. Pertama, method menginisialisasi pointer dengan head dan melakukan iterasi pada setiap node dari head hingga node yang memiliki nomor urut sesuai dengan parameter position. Jika pointer telah mencapai node dengan nomor urut position, maka method akan mengubah nilai atribut dari node tersebut dengan nilai newValue dan menambahkan riwayat perubahan ke dalam atribut history dengan format "Mengubah atribut | nilai lama | menjadi | nilai baru |". Jika pointer tidak menemukan node dengan nomor urut position, maka method akan mencetak pesan kesalahan dan mengembalikan nilai 0. Jika pointer telah mengubah nilai atribut jam pada node yang tepat, maka method akan mencetak pesan berhasil dan mengembalikan nilai 1.
 
 
 **8. DELETE**
 
 ![8](https://user-images.githubusercontent.com/125839542/225790401-11dddc6e-2860-404a-8185-c6df49a3aa87.png)
 
-Method delete() menghapus data pada sebuah linked list yang disimpan dalam sebuah class. Fungsi delete() ini menerima sebuah parameter position yang menunjukkan posisi node yang akan dihapus dari linked list. Jika linked list masih kosong, maka akan ditampilkan pesan "JADWAL KOSONG". Jika posisi yang diberikan adalah 1, maka node pertama akan dihapus. Selain itu, program akan mencari node pada posisi yang diberikan dan menghapusnya. Setelah node dihapus, program akan menambahkan sebuah riwayat baru ke dalam atribut history berupa string yang berisi informasi tentang node yang dihapus. Akhirnya, fungsi ini akan mengembalikan nilai 1 jika node berhasil dihapus, dan 0 jika tidak.
+Method delete() menghapus data pada sebuah linked list yang disimpan dalam sebuah class. Method delete() ini menerima sebuah parameter position yang menunjukkan posisi node yang akan dihapus dari linked list. Jika linked list masih kosong, maka akan ditampilkan pesan "JADWAL KOSONG". Jika posisi yang diberikan adalah 1, maka node pertama akan dihapus. Selain itu, program akan mencari node pada posisi yang diberikan dan menghapusnya. Setelah node dihapus, program akan menambahkan sebuah riwayat baru ke dalam atribut history berupa string yang berisi informasi tentang node yang dihapus. Akhirnya, fungsi ini akan mengembalikan nilai 1 jika node berhasil dihapus, dan 0 jika tidak.
 
 
 **9. MENAMBAH ISI LIST**
 
 ![9](https://user-images.githubusercontent.com/125839542/225790562-a332ec47-6c70-4327-b1e1-33354c536ff0.png)
 
-Saat dijalankan, program langsung menjalankan kode diatas yang melakukan penambahan ini dari list dengan tribut-atribut tersebut.
+Saat dijalankan, program langsung menjalankan kode diatas yang melakukan penambahan ini dari list dengan tribut-atribut tersebut sebagai isi awal jadwal keberangkatan.
 
 
 **10. MAIN()**
@@ -85,14 +84,14 @@ Jika pengguna memilih opsi 1, maka program akan menampilkan pesan "Memproses..."
 
 ![12](https://user-images.githubusercontent.com/125839542/225791086-31136cd2-3bd8-4de7-a898-babceae132c7.png)
 
-Jika pengguna memilih opsi 2, maka program akan menampilkan pesan "Memproses..." dan menunggu selama satu detik, tampilan konsol dikosongkan menggunakan fungsi os.system('cls'). Kemudian, pilihan "MENAMBAHKAN JADWAL KEBERANGKATAN" dan daftar jadwal saat ini ditampilkan menggunakan mylist.view(). Selanjutnya, pengguna diminta untuk memasukkan informasi jadwal keberangkatan yang baru, yaitu jam keberangkatan, tujuan, dan nomor kereta menggunakan input(). Data jadwal baru kemudian ditambahkan ke awal linked list menggunakan mylist.addFirst(). Akhirnya, data jadwal yang baru ditampilkan kembali menggunakan mylist.view().
+Jika pengguna memilih opsi 2, maka program akan menampilkan "MENAMBAHKAN JADWAL KEBERANGKATAN" dan daftar jadwal saat ini ditampilkan menggunakan mylist.view(). Selanjutnya, pengguna diminta untuk memasukkan informasi jadwal keberangkatan yang baru, yaitu jam keberangkatan, tujuan, dan nomor kereta menggunakan input(). Data jadwal baru kemudian ditambahkan ke awal linked list menggunakan mylist.addFirst(). Akhirnya, data jadwal yang baru ditampilkan kembali menggunakan mylist.view().
 
 
 **13. OPSI 3**
 
 ![13](https://user-images.githubusercontent.com/125839542/225791195-990d1871-38b0-412f-821b-f4a864e3a3ad.png)
 
-Setelah opsi nomor 3 dipilih, maka program akan menampilkan pesan "Memproses...", kemudian akan menunggu selama 1 detik dengan menggunakan fungsi time.sleep(1). Setelah itu, program akan menampilkan jadwal keberangkatan kereta dengan menggunakan fungsi mylist.view(). Kemudian program akan menampilkan pesan "Data akan ditambahkan pada No.(nomor terakhir + 1)", dan akan meminta pengguna memasukkan jam keberangkatan, tujuan, dan nomor kereta. Data baru akan ditambahkan ke dalam linked list pada posisi terakhir menggunakan fungsi mylist.addEnd(arv, des, num), dan program akan menampilkan pesan "Data telah ditambahkan" diikuti dengan jadwal keberangkatan kereta yang baru saja diperbarui menggunakan fungsi mylist.view().
+Setelah opsi nomor 3 dipilih, maka program akan menampilkan jadwal keberangkatan kereta dengan menggunakan fungsi mylist.view(). Kemudian program akan menampilkan pesan "Data akan ditambahkan pada No.(nomor terakhir + 1)", dan akan meminta pengguna memasukkan jam keberangkatan, tujuan, dan nomor kereta. Data baru akan ditambahkan ke dalam linked list pada posisi terakhir menggunakan fungsi mylist.addEnd(arv, des, num), dan program akan menampilkan pesan "Data telah ditambahkan" diikuti dengan jadwal keberangkatan kereta yang baru saja diperbarui menggunakan fungsi mylist.view().
 
 
 **14. OPSI 4**
@@ -186,11 +185,3 @@ Pada opsi 5, user akan diminta untuk memasukan nomor urut dari data yang ingin d
 ![Screenshot 2023-03-17 101415](https://user-images.githubusercontent.com/125839542/225796039-2ee9e453-d059-4676-8a26-e9a0d68f4e81.png)
 
 Pada opsi 6, program akan menampilkan riwayat apa saja perubahan yang user lakukan.
-
-
-
-
-
-
-
-
