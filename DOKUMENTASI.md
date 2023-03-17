@@ -4,7 +4,7 @@
 
 **NIM   : 2209116046**
 
-## Source Code
+## Penjelasan Source Code
 **1. MODUL**
 
 ![1](https://user-images.githubusercontent.com/125839542/225788966-7841ed6e-3a4d-40bd-b3e4-e38eb5820c1b.png)
@@ -118,7 +118,7 @@ Pada opsi 5, program akan menampilkan daftar jadwal keberangkatan yang sudah ada
 
 Saat pengguna memilih opsi 6, program akan menampilkan pesan "Memproses..." dan menunggu selama 1 detik sebelum menampilkan pesan "HISTORI PERUBAHAN TERHADAP JADWAL". Kemudian, program akan menampilkan histori perubahan tersebut dengan memanggil fungsi viewHistory dari objek mylist.
 
-## Output
+## Penjelasan Output
 
 **1. Menu Utama**
 
