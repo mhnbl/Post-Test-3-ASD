@@ -1,3 +1,6 @@
+#NAMA   : Muhammad Nabil
+#NIM    : 2209116046
+
 import os
 import time
 from prettytable import PrettyTable
