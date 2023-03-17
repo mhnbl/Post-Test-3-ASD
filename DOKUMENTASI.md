@@ -115,6 +115,57 @@ Pada opsi 5, program akan menampilkan daftar jadwal keberangkatan yang sudah ada
 
 Saat pengguna memilih opsi 6, program akan menampilkan pesan "Memproses..." dan menunggu selama 1 detik sebelum menampilkan pesan "HISTORI PERUBAHAN TERHADAP JADWAL". Kemudian, program akan menampilkan histori perubahan tersebut dengan memanggil fungsi viewHistory dari objek mylist.
 
+## Output
+
+**1. Menu Utama**
+
+![Screenshot 2023-03-17 100145](https://user-images.githubusercontent.com/125839542/225795074-e4193221-1153-4391-838f-3333c85df49e.png)
+
+
+**2. Tampilkan jadwal**
+
+![Screenshot 2023-03-17 100223](https://user-images.githubusercontent.com/125839542/225795411-adfa16d5-80db-4afd-94c0-b117901ed246.png)
+
+
+**3. Menambahkan di Awal**
+
+![Screenshot 2023-03-17 100328](https://user-images.githubusercontent.com/125839542/225795512-e27435c8-0733-4b94-812a-6ed5012b4b5f.png)
+![Screenshot 2023-03-17 100335](https://user-images.githubusercontent.com/125839542/225795532-768abca4-5e47-4b37-8b18-bf9b07b06477.png)
+
+
+**4. Menambah di Akhir**
+
+![Screenshot 2023-03-17 100428](https://user-images.githubusercontent.com/125839542/225795583-6beb8ca5-8199-4488-80ab-8f208e77c860.png)
+![Screenshot 2023-03-17 100434](https://user-images.githubusercontent.com/125839542/225795595-5549f46d-1664-4fb2-a236-598dd98e6f48.png)
+
+
+**5. Memperbarui Data**
+
+![Screenshot 2023-03-17 100456](https://user-images.githubusercontent.com/125839542/225795671-27659ad7-5573-41ee-9c44-50714d8ae15f.png)
+
+***a. Memperbarui Jam***
+
+![Screenshot 2023-03-17 100527](https://user-images.githubusercontent.com/125839542/225795783-8e3a1adc-6205-4457-a4a0-3829650222bf.png)
+![Screenshot 2023-03-17 100532](https://user-images.githubusercontent.com/125839542/225795798-f641fef7-6e24-4d47-80f2-3f9001658a25.png)
+
+***b. Memperbarui Tujuan***
+
+![Screenshot 2023-03-17 100618](https://user-images.githubusercontent.com/125839542/225795862-6db541e8-c0a6-4712-aa7a-e7d9fe9f82a0.png)
+![Screenshot 2023-03-17 100624](https://user-images.githubusercontent.com/125839542/225795867-1b16ceb1-b43b-43d5-bfa5-7c79b297476c.png)
+
+***c. Memperbarui Nomor Kereta***
+
+![Screenshot 2023-03-17 100650](https://user-images.githubusercontent.com/125839542/225795910-d41b9936-d45a-4ad0-924c-53c2f2bb6f94.png)
+![Screenshot 2023-03-17 100655](https://user-images.githubusercontent.com/125839542/225795915-34e4b139-f1e0-4b29-95d5-52ad4240ea3e.png)
+
+**9. Menghapus Data**
+
+![Screenshot 2023-03-17 100957](https://user-images.githubusercontent.com/125839542/225795980-1bb45421-05fb-4f9e-bd90-1c9909a86937.png)
+![Screenshot 2023-03-17 101006](https://user-images.githubusercontent.com/125839542/225795989-3f320087-6467-4245-bf02-dda8ca63898b.png)
+
+**10. History**
+
+![Screenshot 2023-03-17 101415](https://user-images.githubusercontent.com/125839542/225796039-2ee9e453-d059-4676-8a26-e9a0d68f4e81.png)
 
 
 
