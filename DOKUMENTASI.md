@@ -143,17 +143,17 @@ Saat pengguna memilih opsi 6, program akan menampilkan pesan "Memproses..." dan 
 
 ![Screenshot 2023-03-17 100456](https://user-images.githubusercontent.com/125839542/225795671-27659ad7-5573-41ee-9c44-50714d8ae15f.png)
 
-***a. Memperbarui Jam***
+   ***a. Memperbarui Jam***
 
 ![Screenshot 2023-03-17 100527](https://user-images.githubusercontent.com/125839542/225795783-8e3a1adc-6205-4457-a4a0-3829650222bf.png)
 ![Screenshot 2023-03-17 100532](https://user-images.githubusercontent.com/125839542/225795798-f641fef7-6e24-4d47-80f2-3f9001658a25.png)
 
-***b. Memperbarui Tujuan***
+  ***b. Memperbarui Tujuan***
 
 ![Screenshot 2023-03-17 100618](https://user-images.githubusercontent.com/125839542/225795862-6db541e8-c0a6-4712-aa7a-e7d9fe9f82a0.png)
 ![Screenshot 2023-03-17 100624](https://user-images.githubusercontent.com/125839542/225795867-1b16ceb1-b43b-43d5-bfa5-7c79b297476c.png)
 
-***c. Memperbarui Nomor Kereta***
+  ***c. Memperbarui Nomor Kereta***
 
 ![Screenshot 2023-03-17 100650](https://user-images.githubusercontent.com/125839542/225795910-d41b9936-d45a-4ad0-924c-53c2f2bb6f94.png)
 ![Screenshot 2023-03-17 100655](https://user-images.githubusercontent.com/125839542/225795915-34e4b139-f1e0-4b29-95d5-52ad4240ea3e.png)
