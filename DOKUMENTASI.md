@@ -51,7 +51,6 @@ Method addEnd() berfungsi untuk menambahkan sebuah node baru di akhir linked lis
 ![7](https://user-images.githubusercontent.com/125839542/225790042-ed36184d-5af7-441a-96db-ee1211815862.png)
 ![7 2](https://user-images.githubusercontent.com/125839542/225790087-f1c7142c-1ec7-4d10-9bec-efda1cdda143.png)
 ![7 3](https://user-images.githubusercontent.com/125839542/225790109-14765131-79a3-4e0c-9d72-43dfe8de14c3.png)
-![7 4](https://user-images.githubusercontent.com/125839542/225790127-7bcc3b22-17d7-4e83-9356-dbc141ccfdc8.png)
 
 Method Update berfungsi untuk mengubah nilai atribut jam, tujuan, atau nomor kereta pada node tertentu dalam linked list. Method menerima dua parameter, yaitu position yang menentukan posisi node yang akan diubah (dimulai dari 1) dan newValue yang merupakan nilai baru. Pertama, method menginisialisasi pointer dengan head dan melakukan iterasi pada setiap node dari head hingga node yang memiliki nomor urut sesuai dengan parameter position. Jika pointer telah mencapai node dengan nomor urut position, maka method akan mengubah nilai atribut dari node tersebut dengan nilai newValue dan menambahkan riwayat perubahan ke dalam atribut history dengan format "Mengubah atribut | nilai lama | menjadi | nilai baru |". Jika pointer tidak menemukan node dengan nomor urut position, maka method akan mencetak pesan kesalahan dan mengembalikan nilai 0. Jika pointer telah mengubah nilai atribut jam pada node yang tepat, maka method akan mencetak pesan berhasil dan mengembalikan nilai 1.
 
